@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ball Game - Fun Maze Challenge | BaziMaster</title>
+    <meta name="description" content="Challenge yourself with our exciting Ball Game, a summer maze adventure where your skills and reflexes are put to the test.">
+    <link rel="canonical" href="https://bazimaster.xyz/ball-game">
+    <meta property="og:title" content="Ball Game - Fun Maze Challenge | BaziMaster">
+    <meta property="og:description" content="Navigate through challenging mazes in this addictive ball game that tests your reflexes and problem-solving skills.">
+    <meta property="og:url" content="https://bazimaster.xyz/ball-game">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index, follow">
+    <script>
+        // Define Tailwind config before loading the script
+        window.tailwind = {
+            config: {
+                theme: {
+                    extend: {
+                        colors: {
+                            'apple-blue': '#007AFF',
+                            'apple-green': '#34C759',
+                            'apple-indigo': '#5856D6',
+                            'apple-orange': '#FF9500',
+                            'apple-pink': '#FF2D55',
+                            'apple-purple': '#AF52DE',
+                            'apple-red': '#FF3B30',
+                            'apple-teal': '#5AC8FA',
+                            'apple-yellow': '#FFCC00',
+                            'apple-gray': '#8E8E93',
+                            'apple-bg': '#F2F2F7',
+                        }
+                    }
+                }
+            }
+        };
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @media (max-width: 640px) {
+            .game-container {
+                height: 450px;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body class="bg-apple-bg text-gray-800 font-sans">
+    <header class="bg-apple-blue text-white shadow-md">
+        <div class="container mx-auto px-4 py-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <a href="https://bazimaster.xyz" class="text-2xl font-bold">BaziMaster</a>
+                </div>
+                <nav>
+                    <ul class="flex space-x-6">
+                        <li><a href="/" class="hover:text-apple-yellow transition duration-300">Home</a></li>
+                        <li><a href="/games" class="hover:text-apple-yellow transition duration-300">Games</a></li>
+                        <li><a href="/about" class="hover:text-apple-yellow transition duration-300">About</a></li>
+                        <li><a href="/contact" class="hover:text-apple-yellow transition duration-300">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section class="mb-10 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4 text-apple-blue">Summer Maze Ball Game</h1>
+            <p class="text-xl text-apple-gray max-w-3xl mx-auto">Navigate through challenging mazes with precision and speed in this addictive summer-themed ball game.</p>
+        </section>
+
+        <section class="mb-12">
+            <div class="bg-white rounded-lg shadow-lg p-4 md:p-6 flex justify-center">
+                <div class="game-container overflow-hidden rounded-md border-4 border-apple-blue">
+                    <iframe src="https://www.jopi.com/gam/summer-maze/" frameborder="0" scrolling="no" width="800px" height="600px" class="max-w-full"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-apple-indigo">About The Game</h2>
+            <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h2 class="text-2xl font-semibold mb-4 text-apple-purple">Game Features</h2>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex items-start">
+                                <svg class="h-6 w-6 text-apple-green mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Multiple challenging maze levels</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-6 w-6 text-apple-green mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Precision controls for perfect navigation</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-6 w-6 text-apple-green mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Summer-themed visuals and effects</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="h-6 w-6 text-apple-green mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                                </svg>
+                                <span>Timer challenge to test your speed</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-semibold mb-4 text-apple-orange">How To Play</h2>
+                        <ol class="space-y-3 text-gray-700 list-decimal pl-5">
+                            <li>Use your mouse or trackpad to control the ball's movement</li>
+                            <li>Navigate through the maze avoiding obstacles and dead ends</li>
+                            <li>Reach the end point as quickly as possible</li>
+                            <li>Challenge yourself to beat your previous time</li>
+                            <li>Unlock new levels by completing current challenges</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold mb-6 text-apple-indigo">Why Players Love Our Ball Game</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-apple-red">
+                    <h2 class="text-2xl font-semibold mb-3 text-apple-red">Brain Training</h2>
+                    <p class="text-gray-700">Enhance your problem-solving skills and spatial awareness while having fun navigating through challenging mazes.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-apple-green">
+                    <h2 class="text-2xl font-semibold mb-3 text-apple-green">Quick Entertainment</h2>
+                    <p class="text-gray-700">Perfect for short breaks, our game provides instant entertainment with its easy-to-learn yet difficult-to-master gameplay.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-apple-purple">
+                    <h2 class="text-2xl font-semibold mb-3 text-apple-purple">Competitive Edge</h2>
+                    <p class="text-gray-700">Challenge yourself to beat your own records or compete with friends to see who can solve the mazes in record time.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-3xl font-bold mb-6 text-apple-indigo">Share Your Experience</h2>
+            <div class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+                <div class="mb-6">
+                    <p class="text-gray-700 mb-4">Enjoyed playing our Ball Game? Share your experience or feedback with us! We're always looking to improve and add new features.</p>
+                </div>
+                <div class="flex flex-wrap gap-4">
+                    <a href="#" class="bg-apple-blue hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300">
+                        Share on Facebook
+                    </a>
+                    <a href="#" class="bg-apple-teal hover:bg-blue-400 text-white font-bold py-2 px-4 rounded transition duration-300">
+                        Share on Twitter
+                    </a>
+                    <a href="#" class="bg-apple-red hover:bg-red-600 text-white font-bold py-2 px-4 rounded transition duration-300">
+                        Leave Feedback
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white mt-12">
+        <div class="container mx-auto px-4 py-8">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">BaziMaster</h3>
+                    <p class="text-gray-400">Your destination for fun and challenging online games.</p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="text-lg font-semibold mb-3">Games</h4>
+                        <ul class="space-y-2 text-gray-400">
+                            <li><a href="#" class="hover:text-apple-yellow transition duration-300">Ball Game</a></li>
+                            <li><a href="#" class="hover:text-apple-yellow transition duration-300">Puzzle Games</a></li>
+                            <li><a href="#" class="hover:text-apple-yellow transition duration-300">Arcade Games</a></li>
+                            <li><a href="#" class="hover:text-apple-yellow transition duration-300">Strategy Games</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-3">Company</h4>
+                        <ul class="space-y-2 text-gray-400">
+                            <li><a href="#" class="hover:text-apple-yellow transition duration-300">About Us</a></li>
+                            <li><a href="#" class="hover:text-apple-yellow transition duration-300">Blog</a></li>
+                            <li><a href="#" class="hover:text-apple-yellow transition duration-300">Careers</a></li>
+                            <li><a href="#" class="hover:text-apple-yellow transition duration-300">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold mb-3">Legal</h4>
+                        <ul class="space-y-2 text-gray-400">
+                            <li><a href="#" class="hover:text-apple-yellow transition duration-300">Privacy Policy</a></li>
+                            <li><a href="#" class="hover:text-apple-yellow transition duration-300">Terms of Service</a></li>
+                            <li><a href="#" class="hover:text-apple-yellow transition duration-300">Cookie Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
+                <p>&copy; 2025 BaziMaster.xyz - All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Handle responsive iframe sizing
+        function resizeGame() {
+            const container = document.querySelector('.game-container');
+            const iframe = container.querySelector('iframe');
+            
+            if (window.innerWidth < 640) {
+                const containerWidth = container.clientWidth;
+                const aspectRatio = 600 / 800;
+                const newHeight = containerWidth * aspectRatio;
+                
+                iframe.style.width = containerWidth + 'px';
+                iframe.style.height = newHeight + 'px';
+            } else {
+                iframe.style.width = '800px';
+                iframe.style.height = '600px';
+            }
+        }
+
+        window.addEventListener('load', resizeGame);
+        window.addEventListener('resize', resizeGame);
+    </script>
+</body>
+</html>
